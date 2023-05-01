@@ -46,11 +46,11 @@ function render(variables = {}) {
   else instagram = variables.instagram;
 
   let role, city, country;
-  if (!variables.role) role = "Choose Role";
+  if (!variables.role) role = "Chosen Role";
   else role = variables.role;
-  if (!variables.city) city = "Choose City";
+  if (!variables.city) city = "Residence";
   else city = variables.city;
-  if (!variables.country) country = "Choose Country";
+  if (!variables.country) country = "Nationality";
   else country = variables.country;
 
   // reset the website body with the new html output
